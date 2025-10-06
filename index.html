@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGINX Helm Chart</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>NGINX Helm Chart</h1>
+    <p>A Helm chart for deploying NGINX on Kubernetes.</p>
+    
+    <h2>Installation</h2>
+    <pre><code>helm install my-nginx ./nginx-chart</code></pre>
+    
+    <h2>Configuration</h2>
+    <p>The following table lists the configurable parameters:</p>
+    <ul>
+        <li><code>replicaCount</code>: Number of replicas (default: 1)</li>
+        <li><code>image.repository</code>: Image repository (default: nginx)</li>
+        <li><code>image.tag</code>: Image tag (default: stable)</li>
+        <li><code>service.type</code>: Service type (default: ClusterIP)</li>
+        <li><code>service.port</code>: Service port (default: 80)</li>
+    </ul>
+    
+    <h2>Repository</h2>
+    <p><a href="https://github.com/lohitha6/helm">View on GitHub</a></p>
+</body>
+</html>
